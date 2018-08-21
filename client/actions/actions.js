@@ -12,9 +12,9 @@
 // import actionType constants
 import * as types from '../constants/actionTypes'
 
-export const addCard = (marketId) => ({
-  type: types.ADD_CARD,
-  payload: marketId,
+export const loadMonth = (monthData) => ({
+  type: types.LOAD_MONTH,
+  payload: monthData,
 });
 
 // add more action creators

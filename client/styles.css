@@ -23,6 +23,15 @@ body {
         height: auto;
         margin: 0 auto;
     }
+        .single-week {
+            display: flex;
+            width: 100%;
+            height: auto;
+            justify-content: space-around;
+        }
+            .single-day {
+                width: 14%;
+            }
 
 .innerbox {
     padding: 10px;
