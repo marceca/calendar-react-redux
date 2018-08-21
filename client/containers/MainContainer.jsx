@@ -12,6 +12,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 // import from child components...
+import Month from '../components/Month.jsx'
 
 
 const mapStateToProps = store => ({
@@ -31,8 +32,8 @@ class MainContainer extends Component {
     return(
       <div className="container">
         <div className="outerBox">
-          <h1 id="header">MegaMarket Loyalty Cards</h1>
-          { /* Start adding components here... */ }
+          <h1 id="header">Current Month</h1>
+          <Month />
         </div>
       </div>
     )

@@ -17,7 +17,8 @@ import store from './store';
 
 render(
   // wrap the App in the Provider and pass in the store
-  ,document.getElementById('contents')
+  <Provider store={store}><App /></Provider>,document.getElementById('contents')
+
 );
 
 
